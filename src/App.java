@@ -19,7 +19,7 @@ public class App {
                     break; 
                 } 
             } 
-            double result = MathOperations.divide(num1, num2); 
+            double result = DivisionMath.divide(num1, num2); 
             MessageDisplay.showResult(num1, num2, result); 
             continueRunning = UserInput.askToContinue(); 
         } 
