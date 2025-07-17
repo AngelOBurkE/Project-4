@@ -3,7 +3,7 @@
  * Date: July 18, 2025
  * Assignment: 4.2 Project Exception handling
  */
-public class MessageDisplay { 
+public class DisplayMessage { 
     public static void printHeader() { 
         System.out.println("Project Week 4: Division Application - Angelo Burke");  
     } 

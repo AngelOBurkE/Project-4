@@ -5,10 +5,10 @@
  */
 public class App { 
     public static void main(String[] args) { 
-        MessageDisplay.printHeader(); 
+        DisplayMessage.printHeader(); 
         boolean continueRunning = true; 
         while (continueRunning) { 
-            MessageDisplay.printWelcome(); 
+            DisplayMessage.printWelcome(); 
             double num1 = UserInput.getValidDouble("Enter the first number: "); 
             double num2; 
             while (true) { 
@@ -20,9 +20,9 @@ public class App {
                 } 
             } 
             double result = DivisionMath.divide(num1, num2); 
-            MessageDisplay.showResult(num1, num2, result); 
+            DisplayMessage.showResult(num1, num2, result); 
             continueRunning = UserInput.askToContinue(); 
         } 
-        MessageDisplay.printGoodbye(); 
+        DisplayMessage.printGoodbye(); 
     } 
 } 
