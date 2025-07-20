@@ -1,6 +1,6 @@
 /*
  * Name: Angelo Burke
- * Date: July 18, 2025
+ * Date: July 19, 2025
  * Assignment: 4.2 Project Exception handling
  */
 import java.util.Scanner; 
@@ -12,7 +12,7 @@ public class UserInput {
                 System.out.print(prompt); 
                 return Double.parseDouble(scanner.nextLine()); 
             } catch (NumberFormatException e) { 
-                System.out.println("Invalid number. Please enter a valid number."); 
+                System.out.println("Invalid input. Please enter a valid number."); 
             } 
         } 
     } 
